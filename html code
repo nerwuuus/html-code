@@ -1,1 +1,176 @@
+<!--  -->
+
+<!-- tagi -->
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="description" content="Co znajduje się na stronie">
+  <title>Tytuł strony na karcie</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/> <!-- link do czcionki Lato -->
+  <link href="./resources/css/styles.css" rel="stylesheet" type="text/css"/> <!-- link do CSS -->
+  <link rel="icon" type="image/png" sizes="" href="images/favicon-16x16.png"> <!-- link do favicon -->
+</head>
+<body>
+</body>
+</html>
+
+<!-- span używam gdy chcę nadać formatowanie poprzez CSS tylko jednemu słowu w kilku różnych miejscach;
+nie przesuwa tekstu jak div -->
+<span></span>
+
+<!-- zdjęcie -->
+<img src="lokalizacja+format" alt="tekst, który wyświetli się zamiast zdjęcia w razie błędu ładowania">
+
+<!-- wew. link -->
+<a href="./contacts.html">Contacts</a>
+
+<!-- dead link -->
+<a href="#">Contacts</a>
+
+<!-- przenoszenie do nowej linii -->
+<br>
+
+<!-- non-breaking space -->
+&nbsp;
+
+<!-- linia pozioma -->
+<hr>
+
+<!-- link -->
+<a href="link">Nazwa linku</a>
+
+<!-- formularz html -->
+<form>
+ </label>Login<input name="login" type="text">
+  <input type="submit" value="Zaloguj się"> <!-- przycisk 'Zaloguj się' -->
+</form>
+
+<!-- styl liniowy -->
+<h1 style="color: green;"></h1> <!-- styl liniowy nadpisuje inne style zawarte w sekcji <style> -->
+
+<!-- video; controls pozwala kontrolować video -->
+<video src="" width="320" height="240" controls>Video not supported</video>
+
+<!-- otwieranie linku w nowej karcie -->
+<a href="" target="_blank">...</a>
+
+<!-- zdjęcie jako link -->
+<a href="ten sam link" target="_blank"><img src="ten sam link"></a>
+
+<!-- ul jako link; # to odwołanie do id, do którego chcę zrobić link -->
+<ul>
+<li><a href="#introduction">Introduction</a>
+</li>
+</ul>
+
+<!-- tabela wyśrodkowana -->
+<table align="center">
+<th> <!-- kolumna -->
+<td>Dane w komórce tabeli</td>
+</th>
+<tr> <!-- wiersz -->
+<td>Dane w komórce tabeli</td>
+</tr>
+</table>
+
+<!-- formularz na login z oznaczeniem -->
+<form>
+<label for="Username">Username</label>
+<input type="text" name="Username" value="Username">
+</form>
+
+<!-- formularz na hasło -->
+<form>
+<label for="password">Password</label>
+<input type="password" name="password">
+</form>
+
+<!-- pole wyboru z możliwością pokazywania cyfer i dodawania ich i odejmowania -->
+<form>
+<label for="amount">How many?</label>
+<input type="number" name="amount" id="amount" step="1">
+</form>
+
+<!-- slider -->
+<form>
+<label for="volume">Volume</label>
+<input id="volume" name="volume" type="range" min="0" max="100" step="1">
+</form>
+
+<!-- checkbox -->
+<input type="checkbox">
+
+<!-- radio button -->
+<input type="radio" id="yes" name="cheese" value="yes">
+<label for="yes">Yes</label>
+
+<!-- dropdown list - rozwijana lista wyboru -->
+<form>
+<label for="lunch">What's for lunch?</label>
+  <select name="lunch" id="lunch"></select>
+    <option value="pizza">Pizza</option>
+    <option value="salad">Salad</option>
+  </select>
+</form>
+
+<!-- pole wpisu tekstu -->
+<section class="extra-info">
+<label for="extra">Anything else?</label>
+<textarea name="extra" id="extra" cols="40" rows="3">Anything else?</textarea>
+</section>
+
+<!-- przycisk 'wyślij' -->
+<input type="submit" value="wyślij">
+
+<!-- datalist - rozwijana lista -->
+<label for="ice-cream-choice">Choose a flavour:</label>
+<input list="ice-cream-flavour" id="ice-cream-choice" name="ice-cream-choice"/>
+<datalist id="ice-cream-flavour">
+  <option value="Choco">
+  <option value="Mint">
+</datalist>
+
+<!-- wymuszenie wypełnienia pola -->
+<input type="number" name="guess" id="guess" required>
+
+<!-- minimalna/maksymalna wartość w formularzu -->
+<input type="number" name="guess" id="guess" min="1" max="10">
+
+<!-- minimalna/maksymalna długość słów w form -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
